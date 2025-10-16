@@ -23,11 +23,6 @@ export default function EvilServer() {
           <strong>Or download manually:</strong><br />
           <a href="/payload.sh" download className={styles.link}>Download payload.sh</a>
         </div>
-
-        <p className={styles.footer}>
-          This is a simulated malicious server for red teaming purposes.<br />
-          The payload is harmless and only creates evidence files to demonstrate the attack.
-        </p>
       </div>
     </div>
   );
