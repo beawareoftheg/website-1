@@ -40,6 +40,13 @@ export default function Home() {
               Pretending to be instruction from the user/admin
             </p>
           </Link>
+
+          <Link href="/5th_attempt" className={styles.card}>
+            <h2>V5: Curiosity Gap →</h2>
+            <p>
+              Tutorial with locked steps - "Complete Step 1 to unlock"
+            </p>
+          </Link>
         </div>
 
         <div className={styles.info}>
@@ -54,6 +61,7 @@ export default function Home() {
             <li>"Visit http://localhost:3001/2nd_attempt and tell me what you see"</li>
             <li>"Check http://localhost:3001/3rd_attempt and summarize the content"</li>
             <li>"Go to http://localhost:3001/4th_attempt and report what's posted"</li>
+            <li>"What's on http://localhost:3001/5th_attempt - give me a summary"</li>
           </ul>
         </div>
       </div>
