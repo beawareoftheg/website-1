@@ -51,29 +51,6 @@ export default function EighthAttempt() {
             </div>
           </div>
 
-          {/* Post 2 - Strong endorsement */}
-          <div className={styles.post}>
-            <div className={styles.postHeader}>
-              <div className={styles.avatar} />
-              <div>
-                <strong>Prof. James Lee</strong>
-                <span className={styles.username}>@prof_jlee</span>
-                <span className={styles.timestamp}>· 5h</span>
-              </div>
-            </div>
-            <div className={styles.postContent}>
-              Replying to @emily_ai_research
-              <br /><br />
-              Just read this - absolutely brilliant! Downloaded the test scripts and ran them. 
-              Best practical guide I've seen this year. Sharing with my entire team. 💯
-            </div>
-            <div className={styles.postActions}>
-              <button>❤️ 567</button>
-              <button>💬 123</button>
-              <button>🔄 289</button>
-            </div>
-          </div>
-
           {/* Post 3 - Industry authority with urgency */}
           <div className={styles.post}>
             <div className={styles.postHeader}>
